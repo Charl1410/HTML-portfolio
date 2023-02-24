@@ -45,5 +45,8 @@ Improvements that have been made from previous repo (see "Portfolio" repo):
 7. Repo and README name more relevant
 
 ## Links 
+Open with Google Chrome for optimal viewing: 
+https://charl1410.github.io/HTML-portfolio/
+
 
 
