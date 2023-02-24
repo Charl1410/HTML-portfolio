@@ -8,7 +8,6 @@
 header {
     width: 100%;
     height:10%;
-    border-bottom: solid 2px black;
     text-align: center;
    
 }
@@ -28,23 +27,29 @@ nav {
     position: sticky;
     top: 0px;
     z-index: 1;
-    box-shadow: 5px 10px rgb(220, 215, 215);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
    
 
 }
 
-#aboutme, #card-holder, .form-container { background-image: url(https://images.saymedia-content.com/.image/t_share/MTkyOTkyMzE2OTQ3MjQ0MjUz/website-background-templates.jpg);
+#aboutme, #card-holder, .form-container, nav { background-image: url(https://images.saymedia-content.com/.image/t_share/MTkyOTkyMzE2OTQ3MjQ0MjUz/website-background-templates.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;}
 
 #aboutme {
-    border: solid 5px blueviolet;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
    
+}
+
+.about-me-text {
+    border-radius: 15px;
+    text-align: center;
+    padding:2%;
+    background-image: linear-gradient(#f1f9f9, #f3dfe3);
 }
 
 a {
@@ -59,7 +64,7 @@ a {
 
 .hero {
     width:100%;
-    height:100%;
+    height:40%;
     opacity: 100%;
     
 }
@@ -77,7 +82,9 @@ h1 {
     color:black;
 }
 
-h2 { font-family: "sofia", sans-serif;
+h2 
+
+{ font-family: "sofia", sans-serif;
     text-align: center;
 }
 
@@ -96,7 +103,6 @@ h2 { font-family: "sofia", sans-serif;
 
 .memoji {
     height:130%;
-    background-color: white;
     border-radius: 100%;
     border-bottom: solid 2px black;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;    
@@ -112,7 +118,6 @@ flex-grow:1;
 }
 
 #card-holder {
-    border: solid 5px green;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -164,9 +169,12 @@ flex-grow:1;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    border:solid 2px black;
     padding:5%;
 
+}
+
+#message {
+    height:150px;
 }
 
 label {
@@ -251,6 +259,10 @@ a:hover   {
 
     .memoji {
         height:80%;
+    }
+
+    .hero {
+        height:100%;
     }
 
 
