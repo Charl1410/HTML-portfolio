@@ -1,3 +1,4 @@
+/* Universal selector to set all margins and padding to 0 and a default font family unless changed elsewhere */
 * {
     padding: 0;
     margin: 0;
@@ -18,6 +19,7 @@ li {
     margin-left: 28px;
     margin-top: 7px;
     padding: 17px;
+    
 }
 
 nav {
@@ -32,12 +34,14 @@ nav {
 
 }
 
-#aboutme, #card-holder, .form-container, nav { background-image: url(https://images.saymedia-content.com/.image/t_share/MTkyOTkyMzE2OTQ3MjQ0MjUz/website-background-templates.jpg);
+/* Setting specific code rules across different ids elements and classes to endure DRY */
+#aboutme, #card-holder, .form-container, nav, .footer {
+     background-image: url(https://images.saymedia-content.com/.image/t_share/MTkyOTkyMzE2OTQ3MjQ0MjUz/website-background-templates.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;}
 
-#aboutme {
+#aboutme, #card-holder {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -120,10 +124,7 @@ flex-grow:1;
 }
 
 #card-holder {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+
     flex-direction: row;
     flex-wrap: wrap;
     
@@ -191,7 +192,7 @@ flex-grow:1;
 }
 
 label {
-    margin:1%;
+    margin:3%;
 }
 
 input {
@@ -229,7 +230,44 @@ input {
     outline: 0;
     }
 
+    /* Creating all styling for the footer by adding background image
+    icons and icon styling to space them out and make them all a specific size */
+    .footer {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding:2%;
+    }
 
+    .footer-icons {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .icon-styling {
+        margin: 5%;
+        opacity:80%;
+    }
+
+    .icon {
+        height:50px;
+        width: 45px;
+    }
+
+    /* --- */
+
+    
+
+    /* All of these hover components put specific styling on the elements ONLY when they are hovered over */
 
 a:hover   {
     color:black;
@@ -243,6 +281,7 @@ a:hover   {
 
   }
 
+  /* Media query to set specific css rules on the previously established elements starting at a screen width of 1000px */
 
 @media screen and (max-width: 1000px) {
     body {
@@ -257,9 +296,10 @@ a:hover   {
         top:0;
     }
 
+    /* For example before there was a flex-wrap: wrap style on meaning the cards will wrap under eachother but now they are set in a coumn with no wrapping */
     #card-holder {
         flex-direction: column;
-    flex-wrap: nowrap;
+        flex-wrap: nowrap;
     }
 
     .box {
