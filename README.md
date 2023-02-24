@@ -1,8 +1,8 @@
-# week-2-portfolio
+# Portfolio
 
 ## Description 
 
-The current project aim is to create a portfolio page for potential employees to acess future work. 
+The current project aim is to create a portfolio page for potential employees to acess future work. This page was created using HTML and CSS.
 
 ## Acceptance Criteria 
 
