@@ -22,11 +22,16 @@ The current project aim is to create a portfolio page for potential employees to
 
 ## Images 
 
-![Website screenshot](Assets/images/Screenshot 2022-10-11 at 11.52.00.png)
+![Website screenshot]()
 
-## Extra information
-This site contains a link to my first weeks project. I struggled with flexbox especially with the contact me section. 
+# Extra information
+Improvements that have been made from previous repo (see "Portfolio" repo):
 
+1. first project image larger than the others.
+5. The site layout responsiveness has been imporived for different viewpots
+6. Comments added to code 
+7. Repo and README name more relevant
 
 ## Links 
+
 
