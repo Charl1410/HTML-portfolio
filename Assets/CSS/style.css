@@ -48,7 +48,8 @@ a {
 
 .hero {
     width:100%;
-    opacity: 80%;
+    height:50%;
+    opacity: 100%;
     
 }
 
@@ -124,23 +125,7 @@ flex-grow:1;
 
 }
 
-aside {
-        
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    margin-right: 20px;
-    margin-top: 3%;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 25%;
-    height: 83%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border: dashed 5px white;
-    border-radius: 10px;
-}
+
 
 #contact-me {
     width: 90%;
