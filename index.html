@@ -16,17 +16,13 @@
     <title>Portfolio</title>
   </head>
 
-
   <body>
     <nav>
       <ul>
-
         <li>
-            <a href="#aboutme">
-               My portfolio
-            </a>
-          </li>
-          
+          <a href="#aboutme"> My portfolio </a>
+        </li>
+
         <li>
           <a href="#aboutme">
             <span class="material-icons">face</span> About me
@@ -56,47 +52,44 @@
     <div>
       <img
         class="hero"
-        src="https://lirp.cdn-website.com/cc407b53/dms3rep/multi/opt/cover-2580138b-1920w.png"
+        src="https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png"
         alt="hero image laptop"
       />
     </div>
 
     <section id="aboutme">
-            <h2 class="headers">About Me</h2>
-            <a href="https://charl1410.github.io/week-1-code-refractor/">
-                <img class="memoji" src="./Assets/images/photo.PNG" alt="memoji" />
-            </a>
+      <h2 class="headers">Hey I'm Charlotte</h2>
+      <a href="https://charl1410.github.io/week-1-code-refractor/">
+        <img class="memoji" src="./Assets/images/photo.PNG" alt="memoji" />
+      </a>
 
-            <p>
-                Hi! My name is Charlotte and I am currently working on learning HTML,
-                CSS and JavaScript. I am am hoping to become a front-end web developer
-                once completing my bootcamp course from the University of Birmingham!
-            </p>
+      <p>
+        Hi! My name is Charlotte and I am currently working on learning HTML,
+        CSS and JavaScript. I am am hoping to become a front-end web developer
+        once completing my bootcamp course from the University of Birmingham!
+      </p>
 
-            <div id="contact-me">
-                    <h2>Contact me</h2>
+      <div id="contact-me">
+        <h2>Contact me</h2>
 
-                    <div>
-                    <label for="username"> Name:</label>
-
-                    <input class="text-input" type="text" placeholder="First Last" />
-                    </div>
-
-                    <div>
-                    <label for="Email"> Email:</label>
-
-                    <input class="text-input" type="text" placeholder="me@example.com" />
-                    </div>
-
-                    <div>
-                    <label for="Email"> Message:</label>
-
-                    <input class="message" class="text-input" type="text" />
-                    </div>
-
-                    <button type="button">Send to me!</button>
-            </div>
-            
+        <div class="container">
+            <form>
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name..">
+      
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Your email..">
+      
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Subject..">
+      
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Write something.."></textarea>
+      
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+          
     </section>
 
     <div id="card-holder">
