@@ -22,7 +22,19 @@ The current project aim is to create a portfolio page for potential employees to
 
 ## Images 
 
-![Website screenshot]()
+![Website screenshot](https://github.com/Charl1410/HTML-portfolio/blob/5e4c5cf7d7bbca4e4459bbad86b7c2913d304e08/Assets/images/Screenshot%202023-02-24%20at%2015.49.47.png)
+
+![Website screenshot](https://github.com/Charl1410/HTML-portfolio/blob/5e4c5cf7d7bbca4e4459bbad86b7c2913d304e08/Assets/images/Screenshot%202023-02-24%20at%2015.50.15.png)
+
+
+![Website screenshot](https://github.com/Charl1410/HTML-portfolio/blob/5e4c5cf7d7bbca4e4459bbad86b7c2913d304e08/Assets/images/Screenshot%202023-02-24%20at%2015.51.47.png)
+
+![Website screenshot](https://github.com/Charl1410/HTML-portfolio/blob/5e4c5cf7d7bbca4e4459bbad86b7c2913d304e08/Assets/images/Screenshot%202023-02-24%20at%2016.11.02.png)
+
+# Responsive views
+
+![Website screenshot](https://github.com/Charl1410/HTML-portfolio/blob/b598ae7c606b61fba79a2d944367e1856ff2426c/Assets/images/IMG_1366.JPG)
+
 
 # Extra information
 Improvements that have been made from previous repo (see "Portfolio" repo):
